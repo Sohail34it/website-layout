@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+header{
+  background-color: rgb(27, 35, 46);
+}
+li:hover{ 
+  border-radius: 40px;
+  color:transparent;
+  background-color:grey;
+}
+
+
+.nav{
+  padding: 1rem ;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navlist{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap:1rem;
+  
+  
+}
+
+.navlink{
+  text-decoration: none;
+  color: aliceblue;
+}
+.navlinkbtn{
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  background-color: white;
+  color:rgb(95, 143, 216);
+
+}
+
+img {
+  max-width: 100%;
+}
+
+.parent {
+  background-color: #23424a;
+  color: aliceblue;
+}
+
+.child {
+  
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+.logo{
+  align-items: center;
+  width: 5rem;
+  
+}
+
+.gf {
+  width: 50%;
+}
+.imgcont{
+  width: 50%;
+}
+
+.hero {
+  width: 60%;
+}
+.child .row .hero{}
+
+h2 {
+  color: rgb(23, 9, 61);
+}
+
+.twocol {
+  background-color: rgb(17, 88, 168);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.column {
+  max-width: 100%;
+  text-align: center;
+}
+
+.twocol {
+  background-color: aqua;
+}
+.left_text{
+  width: 60%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5.5vmin;
+}
+.threecol{
+  background-color: rgb(96, 158, 16);
+  width:40%;
+  
+}
+
+h2 + p {
+  font-size: 1.2rem;
+}
+.threecol .child{
+  padding: 0rem 3rem;
+}
+
+button {
+  padding: 0.9rem 2rem;
+  background-color: aqua;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 40px;
+  border: none;
+}
